@@ -1,0 +1,89 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the page */
+.live-feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Heading */
+.heading {
+    color: #003366;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Main content container */
+.content-container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+/* Left side: Drone Info */
+.left-side {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.left-side h3 {
+    color: #003366;
+}
+
+.left-side p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Right side: Live Feed */
+.right-side {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.live-feed {
+    text-align: center;
+}
+
+/* Notification */
+.notification {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Button */
+.toggle-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}

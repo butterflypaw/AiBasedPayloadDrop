@@ -1,0 +1,76 @@
+/* General Styles */
+
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Top Bar */
+.top-bar {
+    padding: 10px 20px;
+    background-color: #5b7da0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.toggle-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 0.5;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-right: 1px solid #ccc;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Map Container */
+.map-container {
+    flex: 2.5;
+    position: relative;
+    background-color: #fff;
+}
+
+/* Live Feed */
+.live-feed {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 400px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}

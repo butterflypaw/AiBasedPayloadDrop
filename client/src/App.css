@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C3B091; 
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar-container {
+  background-color: #7B4B3A; 
+  color: white;
+  padding: 10px;
+  z-index: 10;
+}
+
+.map-telemetry-container {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.telemetry-container {
+  width: 250px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  min-width: 200px;
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+}
+
+.resizer {
+  cursor: ew-resize;
+  width: 10px;
+  background-color: #ccc;
+  height: auto;
+}
+
+.mission-planner-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}

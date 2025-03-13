@@ -1,0 +1,21 @@
+.auth-container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .login-section,
+  .register-section {
+    flex: 1; /* Each section takes up half of the container */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Add some padding */
+  }
+  
+  .login-section {
+    background-color: #f0f0f0; /* Light gray background for login */
+  }
+  
+  .register-section {
+    background-color: #e0e0e0; /* Slightly darker gray for register */
+  }

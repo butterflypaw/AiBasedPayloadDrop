@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 10px;
+}
+
+.login-button, .simulation-button {
+    background-color: #fff;
+    color: #7B4B3A;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover, .simulation-button:hover {
+    background-color: #7B4B3A;
+    color: white;
+}
